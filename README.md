@@ -38,7 +38,12 @@ $ ./aggregate-trades -channel BTC-USD -apiKey <API-KEY>
 ```
 *OR*
 ```shell
-/polygonio/aggregate-trades.exe -channel BTC-USD -apiKey <API-KEY>
+go build
+/aggregate-trades.exe -channel BTC-USD -apiKey <API-KEY>
+```
+*OR*
+```shell
+go run . -channel BTC-USD -apiKey <API-KEY>
 ```
 
 Important Note:
